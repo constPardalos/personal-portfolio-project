@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FCC: Personal Portfolio Webpage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="site-header">
+      <nav id="navbar">
+        <ul>
+          <li>
+            <a href="#about"><i class="ri-fingerprint-line"></i>About</a>
+          </li>
+          <li>
+            <a href="#skills"><i class="ri-bar-chart-line"></i>Skills</a>
+          </li>
+          <li>
+            <a href="#projects"><i class="ri-code-s-slash-line"></i>Projects</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="ri-links-line"></i>Social</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="welcome-section">
+        <div id="welcome-content">
+          <h1><span>Hello world</span><br />My name is Konstantinos</h1>
+        </div>
+      </section>
+
+      <section id="about" class="main-section">
+        <div class="section-content">
+          <div class="img-box">
+            <img
+              src="https://avatars.githubusercontent.com/u/81298189"
+              alt="A picture of me"
+            />
+          </div>
+
+          <p>
+            I'm a junior web developer who enjoys creating stuff for the web.
+            I'm currently learning HTML, CSS and JavaScript.
+          </p>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="skills" class="main-section">
+        <p>
+          Below are some of the languages, platforms and tools that I know and
+          hope to master.
+        </p>
+        <ul id="skills-container">
+          <li><i class="ri-html5-line"></i>HTML</li>
+          <li><i class="ri-css3-line"></i>CSS</li>
+          <li><i class="ri-braces-line"></i>JavaScript</li>
+          <li><i class="ri-file-word-2-line"></i>WordPress</li>
+          <li><i class="ri-collage-line"></i>Photoshop</li>
+          <li><i class="ri-pencil-ruler-2-line"></i>Illustrator</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section id="projects" class="main-section">
+        <p>
+          I've also created the following cool projects to practice my skills.
+        </p>
+
+        <div id="projects-container">
+          <a
+            class="project-tile"
+            href="https://github.com/kpardalos/tribute-page"
+            target="_blank"
+          >
+            <img
+              src="./assets/tribute.png"
+            /><span>Tribute Page</span>
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://github.com/kpardalos/survey-form"
+            target="_blank"
+          >
+            <img
+              src="./assets/survey.png"
+            /><span>Survey Form</span>
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://github.com/kpardalos/product-landing-page"
+            target="_blank"
+          >
+            <img
+              src="./assets/product.png"
+            /><span>Product Landing Page</span>
+          </a>
+
+          <a
+            class="project-tile"
+            href="https://github.com/kpardalos/technical-documentation-page"
+            target="_blank"
+          >
+            <img
+              src="./assets/technical.png"
+            /><span>Technical Documentation Page</span>
+          </a>
+        </div>
+
+        <a
+          id="more-btn"
+          href="https://github.com/kpardalos"
+          target="_blank"
+          >View More</a
+        >
+      </section>
+
+      <hr />
+
+      <section id="contact" class="main-section">
+        <p>You can find me at the following digital places:</p>
+
+        <ul id="social-links">
+          <li>
+            <a href="https://twitter.com/konpardalos" target="_blank"
+              ><i class="ri-twitter-line"></i>Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              id="profile-link"
+              href="https://github.com/kpardalos"
+              target="_blank"
+              ><i class="ri-github-line"></i>GitHub</a
+            >
+          </li>
+          <li>
+            <a href="https://codepen.io/kpardalos" target="_blank"
+              ><i class="ri-codepen-line"></i>CodePen</a
+            >
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.org/kpardalos" target="_blank"
+              ><i class="ri-code-box-line"></i>freeCodeCamp</a
+            >
+          </li>
+        </ul>
+
+        <p>Or send me an email at</p>
+        <a id="email" href="mailto:mailme@mail.com"
+          >mailme<span>@</span>mail.com</a
+        >
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        This is not a real portofolio page, but a project made entirely to
+        practice my skills.
+      </p>
+      <a
+        href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage"
+        target="_blank"
+        >freeCodeCamp</a
+      >
+      <!-- Attribution Modal Link -->
+      <a id="attr-open" href="javascript:void(0)">Attributions</a>
+    </footer>
+
+    <!-- Attribution Modal -->
+    <div id="attr-modal">
+      <div id="attr-content">
+        <button id="attr-close">Close</button>
+        <header>Attributions</header>
+        <ol id="attr-list">
+          <li>
+            Icon Web Font by
+            <a href="https://remixicon.com" target="_blank">Remix Icon</a>
+          </li>
+          <li>
+            Poppins & Roboto fonts by
+            <a href="https://fonts.google.com" target="_blank">Google Fonts</a>
+          </li>
+          <li>
+            Photo 1 by Adrien Olichon from
+            <a href="https://unsplash.com/photos/RCAhiGJsUUE" target="_blank"
+              >unsplash.com</a
+            >
+          </li>
+          <li>
+            Photo 2 by Jeremy Bishop from
+            <a href="https://unsplash.com/photos/8xznAGy4HcY" target="_blank"
+              >unsplash.com</a
+            >
+          </li>
+          <li>
+            This modal is based on a
+            <a
+              href="https://www.w3schools.com/howto/howto_css_modals.asp"
+              target="_blank"
+              >W3Schools HowTo</a
+            >
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <script>
+    // START: Attributions Modal
+
+var attrModal = document.getElementById("attr-modal");
+var attrOpen = document.getElementById("attr-open");
+var attrClose = document.getElementById("attr-close");
+
+attrOpen.onclick = function () {
+  attrModal.style.display = "block";
+};
+
+attrClose.onclick = function () {
+  attrModal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == attrModal) {
+    attrModal.style.display = "none";
+  }
+};
+
+// END: Attributions Modal
+    </script>
+  </body>
+</html>
