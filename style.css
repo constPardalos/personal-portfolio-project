@@ -3,29 +3,32 @@ html {
 }
 
 body {
-  background-color: hsl(255, 0%, 0%);
+  background-color: black;
   font-family: "Poppins", sans-serif;
 }
 
 #navbar {
-  background-color: rgba(0, 0, 0, 0.9);
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-  margin: 10px;
-  padding: 15px;
   position: fixed;
   top: 0;
   right: 0;
+  height: 100%;
   z-index: 900;
 }
 
 #navbar ul {
   list-style: none;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 #navbar li {
-  margin: 0 3px;
+  background-color: black;
+  padding: 0 3px;
   text-align: center;
+  width: 100%;
 }
 
 #navbar a {
@@ -56,7 +59,7 @@ body {
 }
 
 #welcome-section {
-  background-image: url("https://source.unsplash.com/RCAhiGJsUUE/1920x1280");
+  background-image: url("assets/portfolio-header-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,13 +68,6 @@ body {
 }
 
 #welcome-content {
-  background: rgb(0, 0, 0);
-  background: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 1) 70%,
-    rgba(0, 0, 0, 1) 100%
-  );
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -235,7 +231,7 @@ hr:before {
 }
 
 #skills-container li:nth-child(3):before {
-  width: 40%;
+  width: 60%;
 }
 
 #skills-container li:nth-child(4):before {
@@ -264,7 +260,6 @@ hr:before {
   flex-shrink: 0;
   position: relative;
   margin: 20px;
-  max-width: 440px;
   text-decoration: none;
   transition: all 0.2s;
   z-index: 2;
@@ -324,24 +319,24 @@ hr:before {
 }
 
 .project-tile span {
-  color: rgba(255, 255, 255, 0.9);
+  background: #000;
+  color: #fff;
   font-size: 20px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 1.3;
   opacity: 0;
+  padding: 20px;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  top: 50%;
+  left: 50%;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+  transform: translate(-50%, -50%);
   transition: all 0.2s;
-  z-index: 1;
+  z-index: 4;
 }
 
 .project-tile:hover span {
   opacity: 1;
-  bottom: -20px;
 }
 
 #more-btn {
@@ -399,7 +394,7 @@ hr:before {
 }
 
 #social-links {
-  background-image: url("https://source.unsplash.com/8xznAGy4HcY/640x960");
+  background-image: url("assets/portfolio-social-bg.jpg");
   background-size: cover;
   background-position: 0% 20%;
   background-repeat: no-repeat;
@@ -579,24 +574,13 @@ footer a:hover,
 
 @media only screen and (max-width: 760px) {
   #navbar {
-    background-color: rgba(0, 0, 0, 1);
-    box-shadow: none;
-    margin: 0;
-    padding: 0;
+    background-color: black;
     position: static;
-    top: auto;
-    right: auto;
-    width: 100%;
   }
-
   #navbar ul {
+    flex-direction: row;
     justify-content: space-between;
-    margin: 10px;
-  }
-
-  #navbar li {
-    margin: 0;
-    width: calc(25% - 10px);
+    padding: 10px;
   }
   #welcome-section {
     height: calc(100vh - 81px);
@@ -604,18 +588,15 @@ footer a:hover,
   #welcome-content h1 {
     font-size: 23px;
   }
-
   #welcome-content h1 span {
     font-size: 38px;
   }
   hr {
     margin: 30px auto;
   }
-
   .main-section {
     margin: 80px 20px;
   }
-
   .main-section p {
     font-size: 22px;
     min-width: 200px;
@@ -632,7 +613,6 @@ footer a:hover,
   #projects-container {
     display: block;
   }
-
   .project-tile {
     display: block;
     margin: 0 auto 50px auto;
@@ -646,12 +626,12 @@ footer a:hover,
     display: none;
   }
   .project-tile span {
-    bottom: -10px;
+    display: block;
     opacity: 1;
     position: relative;
-  }
-  .project-tile:hover span {
-    bottom: -10px;
+    top: auto;
+    left: auto;
+    transform: none;
   }
   #social-links {
     background-position: 0% 100%;
