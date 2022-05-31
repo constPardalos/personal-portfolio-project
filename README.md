@@ -1,9 +1,25 @@
-About:
-This is an assignment project from freeCodeCamp.org.
+# <img src="/assets/favicon.png" width="22"/> Tribute Page
 
-Description:
+[Live Demo](https://thecolordude.github.io/personal-portfolio-project/)
+
+## Description
+
+This is an assignment project from [freeCodeCamp.org](https://www.freecodecamp.org/).
+
 The goal of this project is to create a personal portfolio page using HTML, CSS and JavaScript if needed.
-The end result should fulfill all the user stories specified in the project's description.
+The end result should fulfill all the user stories specified in the [project's description](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage).
 
-More info:
-https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage
+<img src="/assets/preview.png" />
+
+
+## Languages & Tools
+
+The following were used for the creation of this project:
+
+<img src="https://github.com/theColorDude/theColorDude/blob/main/assets/html5-original.svg" width="100" title="HTML5" /> <img src="https://github.com/theColorDude/theColorDude/blob/main/assets/css3-original.svg" width="100" title="CSS3" /> <img src="https://github.com/theColorDude/theColorDude/blob/main/assets/javascript-original.svg" width="100" title="JavaScript" />
+
+## Resources
+
+* Icon Web Font by [Remix Icon](https://remixicon.com/)
+* Main background image from [unsplash.com](https://unsplash.com/photos/RCAhiGJsUUE)
+* Social background image from [unsplash.com](https://unsplash.com/photos/8xznAGy4HcY)
