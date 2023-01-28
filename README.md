@@ -1,6 +1,6 @@
 # <img src="assets/favicon.png" width="22"/> Tribute Page
 
-[Live Demo](https://thecolordude.github.io/personal-portfolio-project/)
+[Live Demo](https://constpardalos.github.io/personal-portfolio-project/)
 
 ## Description
 
@@ -10,17 +10,6 @@ The goal of this project is to create a personal portfolio page using HTML, CSS 
 The end result should fulfill all the user stories specified in the [project's description](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-personal-portfolio-webpage).
 
 <img src="assets/preview.png" />
-
-
-## Languages & Tools
-
-The following were used for the creation of this project:
-
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="60" title="HTML5" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="60" title="CSS3" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60" title="JavaScript" />
-</p>
 
 ## Resources
 
